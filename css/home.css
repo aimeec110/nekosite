@@ -1,0 +1,49 @@
+button::-moz-focus-inner {
+/* fix buttons in FF */
+border: 0;
+padding: 0;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+/* Remove button margin in webkit */
+button{
+margin: 0;
+}
+}
+.acchide {
+text-indent: -999em;
+display: block;
+}
+/* one-list */
+ul, ol {
+margin: 0.5em 0;
+padding: 0;
+}
+ul li {
+list-style: none;
+}
+.one-list-inline {
+display: inline;
+overflow: hidden;
+margin: 0 0 0 0.3em;
+padding: 0;
+}
+.one-list-inline li {
+list-style: none;
+display: inline-block;
+}
+.one-list-inline li:after {
+margin: 0 0.15em;
+}
+.one-list-inline li:last-child:after {
+content: '';
+}
+/* end one-list */
+a:link, a:visited { background-color: #ff4dff;
+color: white;
+padding: 14px 25px;
+text-align: center; text-decoration: none;
+display: inline-block;
+}
+a:hover, a:active {
+background-color: #e600e6;
+}

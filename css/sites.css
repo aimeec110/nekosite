@@ -1,7 +1,6 @@
 body {
   width: 80%;
   margin: 30px auto;
-  font-family: sans-serif;
 }
 
 h3 {
@@ -24,7 +23,7 @@ a {
   width: calc(50% - 4px);
   margin-right: 8px;
   text-decoration: none;
-  color: black;
+  color: #ffe6ff
 }
 
 a:nth-of-type(2n) {
@@ -76,7 +75,6 @@ img {
   font-size: 13px;
   margin: 0;
   text-decoration: underline;
-  color: blue;
 }
 
 .p {

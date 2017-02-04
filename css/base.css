@@ -1,9 +1,6 @@
-html {
+body {
 font: normal 300 16px/25px "Ubuntu", Arial, "libra sans", sans-serif;
 color: #ffe6ff;
-}
-
-body {
 background: #696969;
 margin: 0 auto;
 }
